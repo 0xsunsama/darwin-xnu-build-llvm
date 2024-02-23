@@ -1,0 +1,20 @@
+KernelConfigTables.cpo: \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/iokit/KernelConfigTables.cpp \
+  meta_features.h iokitcpp.h kdebug.h networking.h hibernation.h \
+  crypto.h config_dtrace.h mach_assert.h
+
+meta_features.h:
+
+iokitcpp.h:
+
+kdebug.h:
+
+networking.h:
+
+hibernation.h:
+
+crypto.h:
+
+config_dtrace.h:
+
+mach_assert.h:

@@ -1,0 +1,803 @@
+OSBoolean.cpo: \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/c++/OSBoolean.cpp \
+  meta_features.h libkerncpp.h kdebug.h config_dtrace.h hibernation.h \
+  iotracking.h networking.h crypto.h zlib.h zlibc.h config_kxld.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSBoolean.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSObject.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSMetaClass.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/appleapiopts.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/cdefs.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/ptrcheck.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int8_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int16_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int32_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int64_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int8_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int16_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int32_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int64_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_intptr_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_uintptr_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_offsetof.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/endian.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/endian.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_endian.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/_OSByteOrder.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/i386/_OSByteOrder.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_char.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_short.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_caddr_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_dev_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_blkcnt_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_blksize_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_gid_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_in_addr_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_in_port_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ino_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ino64_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_key_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_mode_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_nlink_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_id_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_pid_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_off_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_uid_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_clock_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_size_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ssize_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_time_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_useconds_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_suseconds_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_rsize_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_errno_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_def.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_setsize.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_set.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_clr.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_zero.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_isset.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_copy.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsblkcnt_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsfilcnt_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSReturn.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/error.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/kern_return.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/kern_return.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/kern_return.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/debug.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/kcdata.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdint.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/string.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/san/san/memintrinsics.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/uuid/uuid.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_uuid_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/boolean.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/boolean.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/boolean.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/port.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/vm_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/vm_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/ptrauth.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/zalloc.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach_debug/zone_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/kern_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/mach_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/host_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/message.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/limits.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/limits.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_limits.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/Availability.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/AvailabilityInternal.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/base.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/overflow.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdbool.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_statistics.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/time_value.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/host_notify.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/host_special_ports.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/memory_object_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_prot.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_sync.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/refcnt.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdatomic.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdatomic.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stddef.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/refcnt_internal.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/exception_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/exception.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/exception.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_status.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/thread_status.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/thread_status.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/_structs.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/_structs.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/thread_state.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/thread_state.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/fp_reg.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/eflags.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/proc_reg.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach_debug/ipc_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/mach_voucher_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/std_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/processor_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/processor_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/processor_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/policy.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_inspect.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_policy.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_policy_private.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_special_ports.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_info.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_policy.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_policy_private.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_special_ports.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/clock_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_attributes.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_inherit.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_purgable.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_behavior.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_region.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/vm_param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/vm_param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/kmod.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/dyld_kernel.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsid_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsobj_id_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/vm/vm_memtag.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/alloc_util.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/cpp_util.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/atomic.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/startup.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/section_keywords.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/cpu_number.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/machine/cpu_number.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/cpu_number.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/kalloc.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/counter.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/macro_help.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSPtr.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/iokit/IOKit/IORPC.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/iokit/DriverKit/OSObject.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSString.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSSerialize.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSLib.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSBase.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSTypes.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_os_inline.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/systm.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/time.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_timespec.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_timeval.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_timeval64.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user_timespec.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user32_timespec.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user64_timespec.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user_timeval.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user32_timeval.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user64_timeval.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user32_itimerval.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user64_itimerval.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ioctl.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ttycom.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ioccom.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/filio.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/sockio.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/malloc.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/proc.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/select.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_sigset_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/kernel_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/constrained_ctypes.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_mount_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_vnode_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_guid_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/waitq.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/sync_policy.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/queue.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/assert.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/priority_queue.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/event.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/queue.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/event_private.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/pthread/priority_private.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/fcntl.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_o_sync.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_o_dsync.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_seek_set.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_s_ifmt.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/lock.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/locks.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/machine/locks.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/locks.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_types.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_attr.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_group.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_mtx.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_rw.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/ticket_lock.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/percpu.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_null.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/syslimits.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/errno.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/resource.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ucred.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/bsm/audit.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/uio.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_iovec_t.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/signal.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/signal.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/signal.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/_mcontext.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_mcontext.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_sigaltstack.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ucontext.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/coalition.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/codesign.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/cs_blobs.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/libkern/libkern.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/crc.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/libkern/copyio.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/thread.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/mach_param.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/vm/vm_kern.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSAtomic.h \
+  /Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSCPPDebug.h
+
+meta_features.h:
+
+libkerncpp.h:
+
+kdebug.h:
+
+config_dtrace.h:
+
+hibernation.h:
+
+iotracking.h:
+
+networking.h:
+
+crypto.h:
+
+zlib.h:
+
+zlibc.h:
+
+config_kxld.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSBoolean.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSObject.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSMetaClass.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/appleapiopts.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/cdefs.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/ptrcheck.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int8_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int16_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int32_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_int64_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int8_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int16_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int32_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int64_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_intptr_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_uintptr_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_offsetof.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/endian.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/endian.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_endian.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/_OSByteOrder.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/i386/_OSByteOrder.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_char.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_short.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_u_int.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_caddr_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_dev_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_blkcnt_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_blksize_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_gid_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_in_addr_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_in_port_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ino_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ino64_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_key_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_mode_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_nlink_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_id_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_pid_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_off_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_uid_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_clock_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_size_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ssize_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_time_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_useconds_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_suseconds_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_rsize_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_errno_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_def.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_setsize.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_set.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_clr.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_zero.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_isset.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fd_copy.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsblkcnt_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsfilcnt_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSReturn.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/error.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/kern_return.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/kern_return.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/kern_return.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/debug.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/kcdata.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdint.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/string.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/san/san/memintrinsics.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/uuid/uuid.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_uuid_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdarg.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/boolean.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/boolean.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/boolean.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/port.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/vm_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/vm_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/ptrauth.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/zalloc.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach_debug/zone_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/kern_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/mach_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/host_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/message.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/limits.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/limits.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_limits.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/Availability.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/AvailabilityInternal.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/base.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/overflow.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdbool.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdbool.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_statistics.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/time_value.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/host_notify.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/host_special_ports.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/memory_object_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_prot.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_sync.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/refcnt.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stdatomic.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdatomic.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/EXTERNAL_HEADERS/stddef.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/refcnt_internal.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/exception_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/exception.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/exception.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_status.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/thread_status.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/thread_status.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/_structs.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/_structs.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/thread_state.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/thread_state.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/fp_reg.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/eflags.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/proc_reg.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach_debug/ipc_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/mach_voucher_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/std_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/processor_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/processor_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/processor_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/policy.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_inspect.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_policy.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_policy_private.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/task_special_ports.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_info.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_policy.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_policy_private.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/thread_special_ports.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/clock_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_attributes.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_inherit.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_purgable.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_behavior.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_region.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/machine/vm_param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/i386/vm_param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/kmod.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/dyld_kernel.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsid_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_fsobj_id_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/vm_param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/vm/vm_memtag.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/alloc_util.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/cpp_util.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/os/atomic.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/startup.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/section_keywords.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/cpu_number.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/machine/cpu_number.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/cpu_number.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/kalloc.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/counter.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/macro_help.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSPtr.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/iokit/IOKit/IORPC.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/iokit/DriverKit/OSObject.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSString.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSSerialize.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSLib.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSBase.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSTypes.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_os_inline.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/systm.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/time.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_timespec.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_timeval.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_timeval64.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user_timespec.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user32_timespec.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user64_timespec.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user_timeval.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user32_timeval.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user64_timeval.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user32_itimerval.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_user64_itimerval.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ioctl.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ttycom.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ioccom.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/filio.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/sockio.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/malloc.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/proc.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/select.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_sigset_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/kernel_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/constrained_ctypes.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_mount_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_vnode_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_guid_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/waitq.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/sync_policy.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/queue.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/assert.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/priority_queue.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/event.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/queue.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/event_private.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/pthread/priority_private.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/fcntl.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_o_sync.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_o_dsync.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_seek_set.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_s_ifmt.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/lock.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/locks.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/machine/locks.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/i386/locks.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_types.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_attr.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_group.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_mtx.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/lock_rw.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/ticket_lock.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/percpu.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_null.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/syslimits.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/errno.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/resource.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/ucred.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/bsm/audit.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/uio.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_iovec_t.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/signal.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/signal.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/signal.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/machine/_mcontext.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/i386/_mcontext.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_sigaltstack.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/_types/_ucontext.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/coalition.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/sys/codesign.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/cs_blobs.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/libkern/libkern.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/crc.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/bsd/libkern/copyio.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/kern/thread.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/mach/mach_param.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/EXPORT_HDRS/osfmk/vm/vm_kern.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/OSAtomic.h:
+
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/xnu/libkern/libkern/c++/OSCPPDebug.h:

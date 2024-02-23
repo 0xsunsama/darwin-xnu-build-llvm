@@ -1,0 +1,10 @@
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/device_tree.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/bootargs.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/pe_gen.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/kcformat.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/pe_init.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/pe_bootargs.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/pe_identify_machine.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/pe_kprintf.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/pe_interrupt.o
+/Users/sunsama/Documents/workspace/research/ios/darwin-xnu-build-llvm/build/xnu.obj/RELEASE_X86_64/pexpert/RELEASE/pe_serial.o
